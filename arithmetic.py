@@ -4,7 +4,7 @@
 def add(num1, num2):
     """Return the sum of the two inputs."""
     result = (num1 + num2)
-    return answer
+    return result
 
 
 def subtract(num1, num2):
@@ -30,13 +30,12 @@ def divide(num1, num2):
 
 def square(num1):
     """Return the square of the input."""
-    result = num1 ** 2
-    return result
+
+    return power(num1,2)
 
 def cube(num1):
     """Return the cube of the input."""
-    result = num1 ** 3
-    return result
+    return power(num1, 3)
 
 
 def power(num1, num2):
