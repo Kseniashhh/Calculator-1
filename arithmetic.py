@@ -22,7 +22,7 @@ def multiply(num1, num2):
 def divide(num1, num2):
     """Divide the first input by the second and return the result."""
     if num2 == 0:
-        print ("Cannot divide by 0")
+        print ("Cannot divide by 0.")
         return
     else:
         result = num1/num2
